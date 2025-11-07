@@ -1,0 +1,14 @@
+name: ZeventLifes
+version: 1.0
+main: com.zevent.LifesPlugin
+api-version: 1.21
+author: Zevent
+commands:
+  vidas:
+    description: Control de vidas
+    usage: /vidas <add|remove|set> <jugador> <cantidad>
+    permission: vidas.admin
+permissions:
+  vidas.admin:
+    description: Permite modificar vidas
+    default: op
